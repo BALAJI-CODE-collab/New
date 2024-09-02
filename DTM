@@ -1,0 +1,87 @@
+        <section id="frontpage" class="active">
+            <h2>Welcome to the iPhone 15 Design Journey</h2>
+            <p>Discover the innovative process behind the creation of the iPhone 15.</p>
+            <p>We follow the Design Thinking methodology to bring you the best user experience.</p>
+            <img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/01/backlit-apple-logo-on-a-macbook.jpg" alt="Apple Logo">
+            <a href="#empathize" class="next-button" onclick="showSection('empathize')">Next</a>
+        </section>
+
+        <section id="empathize">
+            <h2>Stage 1: Empathize</h2>
+            <p>Gain a deep understanding of user needs through interviews, surveys, and observations. This helps uncover insights into user behavior and preferences.</p>
+            <ul>
+                <li><strong>User Interviews:</strong> Conduct interviews with current iPhone users and potential customers to gather insights on their experiences, preferences, and frustrations.</li>
+                <li><strong>Surveys:</strong> Distribute surveys to a larger audience to gather quantitative data on user preferences and common issues.</li>
+                <li><strong>Observations:</strong> Observe how users interact with their current phones in different environments (home, work, travel) to identify usability issues and opportunities for improvement.</li>
+                <li><strong>Focus Groups:</strong> Organize focus groups to discuss what features users love and what improvements they desire in the next iPhone model.</li>
+            </ul>
+            <img src="https://p16-va.lemon8cdn.com/tos-maliva-v-ac5634-us/oMRb4MQEiAZiAQBUgPCSPt3jIUA91v7iAAIbD~tplv-tej9nj120t-origin.webp" alt="Empathize Image">
+            <a href="#define" class="next-button" onclick="showSection('define')">Next</a>
+        </section>
+
+        <section id="define">
+            <h2>Stage 2: Define</h2>
+            <p>Analyze gathered data to identify core problems. Create user personas and problem statements to clearly define challenges and opportunities.</p>
+            <ul>
+                <li><strong>Journey Maps:</strong> Map out the user journey to identify key pain points and moments of delight.</li>
+                <li><strong>Problem Statements:</strong> Develop clear problem statements based on the insights gathered during the empathize stage. Example: "Users need an iPhone that offers significantly longer battery life and enhanced camera functionality because they want to stay connected and capture high-quality photos without frequent charging."</li>
+            </ul>
+            <img src="https://www.lux.camera/content/images/size/w1000/2023/10/hero-4.jpg" alt="Define Image">
+            <a href="#ideate" class="next-button" onclick="showSection('ideate')">Next</a>
+        </section>
+
+        <section id="ideate">
+            <h2>Stage 3: Ideate</h2>
+            <p>Brainstorm and generate a wide range of creative solutions. Encourage thinking outside the box to develop innovative approaches to the problems.</p>
+            <ul>
+                <li><strong>Brainstorming Sessions:</strong> Conduct brainstorming sessions with the product team to come up with innovative features and solutions.</li>
+                <li><strong>Mind Mapping:</strong> Use mind maps to visually organize ideas and explore various possibilities.</li>
+                <li><strong>Sketching:</strong> Create rough sketches of potential design solutions and features. Example: Ideas generated might include a new battery technology that extends battery life, advanced camera features with AI enhancements, and a more durable design using stronger materials.</li>
+            </ul>
+            <img src="https://external-preview.redd.it/5-000-pro-camera-vs-iphone-15-pro-sometimes-closer-than-v0-Ig457SJYUzNlg0qkeFBhXfV3WtuWEJeVYRHOUqJw-CE.jpg?width=1080&crop=smart&auto=webp&s=3031e2585f5840821ef97cb0c87a7fcec2b33a93" alt="Ideate Image">
+            <a href="#prototype" class="next-button" onclick="showSection('prototype')">Next</a>
+        </section>
+
+        <section id="prototype">
+            <h2>Stage 4: Prototype</h2>
+            <p>Create tangible representations of your ideas. Use low and high-fidelity prototypes to visualize and test solutions, making it easier to refine concepts.</p>
+            <ul>
+                <li><strong>Low-Fidelity Prototypes:</strong> Create simple mockups or models of the new features and design changes using materials like paper, foam, or basic digital tools.</li>
+                <li><strong>High-Fidelity Prototypes:</strong> Develop more polished prototypes that closely resemble the final product, including working models with new hardware and software features. Example: Develop a high-fidelity prototype of the iPhone 15 with the new battery technology, improved camera system, and a redesigned, more durable casing.</li>
+            </ul>
+            <img src="https://dl-image.3u.com/teeditor-imgs/20231213/1702433823809_892711.jpg" alt="Prototype Image">
+            <a href="#test" class="next-button" onclick="showSection('test')">Next</a>
+        </section>
+
+        <section id="test">
+            <h2>Stage 5: Test</h2>
+            <p>Test prototypes with real users to gather feedback. This iterative process helps identify strengths and weaknesses, ensuring the final product meets user needs.</p>
+            <ul>
+                <li><strong>User Testing:</strong> Conduct usability testing sessions where users interact with the prototype to perform various tasks and provide feedback.</li>
+                <li><strong>Feedback Collection:</strong> Collect qualitative and quantitative feedback from users to understand their experiences and identify areas for improvement.</li>
+                <li><strong>Iteration:</strong> Refine the prototype based on user feedback and retest as needed to ensure the final product effectively meets user needs.</li>
+            </ul>
+            <img src="https://amateurphotographer.com/wp-content/uploads/sites/7/2023/10/iPhone15Pro_vs_iPhone14Pro_08.jpg" alt="Test Image">
+            <a href="#thankyou" class="next-button" onclick="showSection('thankyou')">Next</a>
+        </section>
+
+        <section id="thankyou">
+            <h2>Thank You</h2>
+            <p>Thank you for following the iPhone 15 design journey.</p>
+            <p>We hope you enjoy the innovative features and enhanced user experience in the new iPhone 15.</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 iPhone 15 Design Team. All rights reserved.
+    </footer>
+
+    <script>
+        function showSection(id) {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => section.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+</body>
+</html>
